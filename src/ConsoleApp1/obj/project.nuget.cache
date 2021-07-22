@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "U1p1OKisTDwYGqSTLtu6y8VUY836eNqgQxFHo2jQwy2Psq6BXEB9Fx4zBgA3vtT1hc1ipAeiWjZEVb8Nt3flrQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Daffolap-921\\source\\repos\\ConsoleApp\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Daffolap-921\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.14\\microsoft.netcore.app.host.win-x64.3.1.14.nupkg.sha512"
+  ],
+  "logs": []
+}
