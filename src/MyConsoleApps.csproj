@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ConsoleApp1\bin\**" />
+    <Compile Remove="ConsoleApp1\obj\**" />
+    <Compile Remove="ConsoleApp2\bin\**" />
+    <Compile Remove="ConsoleApp2\obj\**" />
+    <EmbeddedResource Remove="ConsoleApp1\bin\**" />
+    <EmbeddedResource Remove="ConsoleApp1\obj\**" />
+    <EmbeddedResource Remove="ConsoleApp2\bin\**" />
+    <EmbeddedResource Remove="ConsoleApp2\obj\**" />
+    <None Remove="ConsoleApp1\bin\**" />
+    <None Remove="ConsoleApp1\obj\**" />
+    <None Remove="ConsoleApp2\bin\**" />
+    <None Remove="ConsoleApp2\obj\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove=".gitattributes" />
+    <None Remove=".gitignore" />
+    <None Remove="ConsoleApp2\.gitattributes" />
+    <None Remove="ConsoleApp2\.gitignore" />
+  </ItemGroup>
+
+</Project>

@@ -9,6 +9,49 @@ namespace ConsoleApp2
     public class RoughWork
     {
 
+        //public double FindMedianSortedArrays(int[] nums1, int[] nums2)
+        //{
+        //    SortedSet<int> set1 = new SortedSet<int>();
+
+        //    var temp = nums1.Concat(nums2).OrderBy(x => x).ToArray();
+        //    temp.Count();
+        //    int[] ss = new int[1];
+
+        //}
+            public static void CallMe()
+        {
+            string s = "abccdefgh";
+            int length = s.Length;
+
+            
+
+            HashSet<int> chars = new HashSet<int>(new int[]{1,2,3,1,2,3,4});
+            chars.ToArray<int>().OrderBy(x => x);
+
+            List<int> dd = new List<int>(new int[]{1,2 });
+            var ff= new List<int>(new int[] { 1, 2 ,3});
+
+            var dfdf= ff.Concat(dd);
+
+            int answer = 0, i = 0, j = 0;
+
+            while (i < length && j < length)
+            {
+                if (chars.Add(s[j]))
+                {
+                    j++;
+                    answer = Math.Max(answer, j - i);
+                }
+                else
+                {
+                    chars.Remove(s[i++]);
+                }
+            }
+
+            Console.WriteLine(answer);
+        }
+
+
         //    public interface IPluggable
         //    {
         //        Type InputType { get; }

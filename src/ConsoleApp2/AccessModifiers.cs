@@ -11,7 +11,8 @@ namespace ConsoleDiffenerebtNameSpace
     class CheckInternal : ConsoleApp1ClassLibrary2Class1
     {
 
-        public void foo() {
+        public void foo()
+        {
             protectedInternalInt = 0;
             //privateProtectedInt = 9;
             protectedInt = 0;
@@ -53,7 +54,8 @@ namespace ConsoleApp2
                 return 1;
             }
 
-            private protected int private_protected() {
+            private protected int private_protected()
+            {
                 return 1;
             }
 
@@ -123,3 +125,79 @@ namespace ConsoleApp2
 
     }
 }
+
+namespace ConsoleApp2
+{
+
+    interface IExample
+    {
+
+        void foo()
+        {
+            Console.WriteLine("Test I");
+        }
+
+    }
+
+    class Exmaple : IExample
+    {
+
+
+        public static void CallMe()
+        {
+
+            IExample obj = new Exmaple();
+            obj.foo();
+        }
+    }
+
+}
+
+namespace ConsoleApp2
+{
+
+    internal interface IFile
+    {
+        internal void ReadFile();
+
+    }
+
+    interface IBinaryFile
+    {
+        void OpenBinaryFile();
+        void ReadFile();
+    }
+
+    class FileInfo : IFile, IBinaryFile
+    {
+
+        void fooo() { }
+
+        class Nested_FileInfo
+        {
+
+        }
+
+        void IFile.ReadFile()
+        {
+            Console.WriteLine("Reading Text File");
+        }
+
+        void IBinaryFile.OpenBinaryFile()
+        {
+            Console.WriteLine("Opening Binary File");
+        }
+
+        void IBinaryFile.ReadFile()
+        {
+            Console.WriteLine("Reading Binary File");
+        }
+
+        public void Search(string text)
+        {
+            Console.WriteLine("Searching in File");
+        }
+    }
+
+}
+
