@@ -22,8 +22,10 @@ namespace ConsoleApp2
         {
             string s = "abccdefgh";
             int length = s.Length;
-
-            
+            0.9
+            double dbl = 0.1d;
+            decimal dcml = 0.1m;
+            float flt = 0.1f;
 
             HashSet<int> chars = new HashSet<int>(new int[]{1,2,3,1,2,3,4});
             chars.ToArray<int>().OrderBy(x => x);
