@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 
 namespace WebAPI_1.Controllers
 {
-    //[ApiController]
     public class RandomController: Controller
     {
         private readonly Random _random = new Random();

@@ -6,4 +6,8 @@
     <DockerfileContext>..\ConsoleApp2</DockerfileContext>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+  </ItemGroup>
+
 </Project>

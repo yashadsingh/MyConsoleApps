@@ -21,3 +21,9 @@ C:\Users\Daffolap-921\source\repos\MyConsoleApps\MyConsoleApps\src\WebAPI_1\obj\
 C:\Users\Daffolap-921\source\repos\MyConsoleApps\MyConsoleApps\src\WebAPI_1\obj\Debug\net5.0\ref\WebAPI_1.dll
 C:\Users\Daffolap-921\source\repos\MyConsoleApps\MyConsoleApps\src\WebAPI_1\obj\Debug\net5.0\WebAPI_1.pdb
 C:\Users\Daffolap-921\source\repos\MyConsoleApps\MyConsoleApps\src\WebAPI_1\obj\Debug\net5.0\WebAPI_1.genruntimeconfig.cache
+C:\Users\Daffolap-921\source\repos\MyConsoleApps\MyConsoleApps\src\WebAPI_1\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Daffolap-921\source\repos\MyConsoleApps\MyConsoleApps\src\WebAPI_1\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Daffolap-921\source\repos\MyConsoleApps\MyConsoleApps\src\WebAPI_1\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Daffolap-921\source\repos\MyConsoleApps\MyConsoleApps\src\WebAPI_1\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Daffolap-921\source\repos\MyConsoleApps\MyConsoleApps\src\WebAPI_1\obj\Debug\net5.0\WebAPI_1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Daffolap-921\source\repos\MyConsoleApps\MyConsoleApps\src\WebAPI_1\obj\Debug\net5.0\WebAPI_1.csproj.CopyComplete

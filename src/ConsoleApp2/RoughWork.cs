@@ -22,7 +22,6 @@ namespace ConsoleApp2
         {
             string s = "abccdefgh";
             int length = s.Length;
-            0.9
             double dbl = 0.1d;
             decimal dcml = 0.1m;
             float flt = 0.1f;
