@@ -20,7 +20,7 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            RoughWork.CallMe();
+            StackAsLinkedList.CallMe();
             Console.Read();
 
         }

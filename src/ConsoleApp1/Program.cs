@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp1.Consumers;
+using System;
 using System.Collections.Generic;
 using System.Threading;
 
@@ -6,8 +7,9 @@ namespace ConsoleApp1
 {
     class Program
     {
-        public static void Main() { 
-        
+        public static void Main() {
+            WebAPI_1.CallMe();
+            Console.ReadKey();
         }
     
     }
