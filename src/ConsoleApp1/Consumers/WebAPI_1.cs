@@ -15,15 +15,15 @@ namespace ConsoleApp1.Consumers
         {
 
             HttpResponseMessage response = _client.GetAsync(
-                "http://localhost:8989/api/Cart").Result;
+                "https://localhost:8989/api/Cart").Result;
 
             var stringContent = new StringContent("");
             stringContent.Headers.ContentType = System.Net.Http.Headers.MediaTypeHeaderValue.Parse("application/json");
             response = _client.PostAsync(
-                "http://localhost:8989/api/Cart", stringContent).Result;
+                "https://localhost:8989/api/Cart", stringContent).Result;
 
             response = _client.GetAsync(
-                "http://localhost:8989/api/Cart").Result;
+                "https://localhost:8989/api/Cart").Result;
 
             response.EnsureSuccessStatusCode();
 

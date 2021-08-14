@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 //using System.Web.Helpers;
 using System.Linq;
+using System.Threading;
 
 namespace ConsoleApp2
 {
@@ -20,7 +21,9 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            StackAsLinkedList.CallMe();
+            Console.WriteLine($"***** START ****** Thread = {Thread.CurrentThread.ManagedThreadId}");
+            StaticAndAbstract.D.CallMe();
+            Console.WriteLine($"***** END ****** Thread = {Thread.CurrentThread.ManagedThreadId}");
             Console.Read();
 
         }

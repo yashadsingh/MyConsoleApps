@@ -29,6 +29,7 @@ namespace WebAPI_1
                 app.UseDeveloperExceptionPage();
             }
             app.UseSwagger();
+            app.UseResponseCaching();
             app.UseSwaggerUI(c=> c.SwaggerEndpoint("/swagger/v1/swagger.json", "API_v1"));
             app.UseRouting();
 
