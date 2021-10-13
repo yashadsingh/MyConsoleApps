@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
-
     public interface Add { }
 
     public interface Sum { }
