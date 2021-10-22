@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -25,6 +25,11 @@
     <None Remove=".gitignore" />
     <None Remove="ConsoleApp2\.gitattributes" />
     <None Remove="ConsoleApp2\.gitignore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="newBranch_1\" />
+    <Folder Include="newBranch_2\" />
   </ItemGroup>
 
 </Project>
