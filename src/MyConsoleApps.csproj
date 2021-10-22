@@ -10,14 +10,20 @@
     <Compile Remove="ConsoleApp1\obj\**" />
     <Compile Remove="ConsoleApp2\bin\**" />
     <Compile Remove="ConsoleApp2\obj\**" />
+    <Compile Remove="newBranch_1\**" />
+    <Compile Remove="newBranch_2\**" />
     <EmbeddedResource Remove="ConsoleApp1\bin\**" />
     <EmbeddedResource Remove="ConsoleApp1\obj\**" />
     <EmbeddedResource Remove="ConsoleApp2\bin\**" />
     <EmbeddedResource Remove="ConsoleApp2\obj\**" />
+    <EmbeddedResource Remove="newBranch_1\**" />
+    <EmbeddedResource Remove="newBranch_2\**" />
     <None Remove="ConsoleApp1\bin\**" />
     <None Remove="ConsoleApp1\obj\**" />
     <None Remove="ConsoleApp2\bin\**" />
     <None Remove="ConsoleApp2\obj\**" />
+    <None Remove="newBranch_1\**" />
+    <None Remove="newBranch_2\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -25,11 +31,6 @@
     <None Remove=".gitignore" />
     <None Remove="ConsoleApp2\.gitattributes" />
     <None Remove="ConsoleApp2\.gitignore" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="newBranch_1\" />
-    <Folder Include="newBranch_2\" />
   </ItemGroup>
 
 </Project>
