@@ -15,8 +15,10 @@ namespace WebAPI_1.Controllers
         private readonly Random _random = new Random();
 
         [HttpGet]
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
+            await Task.Delay(8000);
+
             return Ok(_item);
         }
 

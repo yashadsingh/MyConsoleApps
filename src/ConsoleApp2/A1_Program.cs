@@ -17,7 +17,7 @@ namespace ConsoleApp2
     class Sample<A> : IContravariant<A> { }
 
 
-    class Program
+    class A1_Program
     {
         static void Main(string[] args)
         {

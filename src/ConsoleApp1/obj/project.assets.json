@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Daffolap-921\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\singh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daffolap-921\\source\\repos\\MyConsoleApps\\MyConsoleApps\\src\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "D:\\MyConsoleApps\\src\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\Daffolap-921\\source\\repos\\MyConsoleApps\\MyConsoleApps\\src\\ConsoleApp1\\ConsoleApp1.csproj",
-      "packagesPath": "C:\\Users\\Daffolap-921\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Daffolap-921\\source\\repos\\MyConsoleApps\\MyConsoleApps\\src\\ConsoleApp1\\obj\\",
+      "projectPath": "D:\\MyConsoleApps\\src\\ConsoleApp1\\ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\singh\\.nuget\\packages\\",
+      "outputPath": "D:\\MyConsoleApps\\src\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Daffolap-921\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -59,18 +55,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.14, 3.1.14]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,17 +1,29 @@
 ﻿using ConsoleApp1.Consumers;
 using System;
-using System.Collections.Generic;
 using System.Threading;
 
 namespace ConsoleApp1
 {
-    using ConsoleApp1.BookRide;
-    using System;
-    using System.Collections.Concurrent;
-    using System.Collections.Generic;
-    using System.Diagnostics;
-    using System.Linq;
-    using System.Threading.Tasks;
+    class Program
+    {
+        static void Main()
+        {
+            Console.WriteLine("The End. Type 'c' to run again.");
+            while (Console.ReadLine().ToString().Equals("c"))
+            {
+                var caller = new WebAPI_1();
+                Console.WriteLine($"{Thread.CurrentThread.ManagedThreadId} - {Thread.CurrentThread.ThreadState} - Main()");
+                caller.TestTask();
+                caller.TestTask_2();
+                caller.TestTask_3();
+                Console.WriteLine($"{Thread.CurrentThread.ManagedThreadId} - {Thread.CurrentThread.ThreadState} - Main()");
+                Console.WriteLine("The End. Type 'c' to run again.");
+            }
+
+            Console.ReadLine();
+        }
+    }
+
 
     //namespace ParallelExample
     //{
@@ -89,16 +101,6 @@ namespace ConsoleApp1
     //        }
     //    }
     //}
-
-    class Program
-    {
-        public static void Main()
-        {
-            TestMe.CallMe();
-            Console.ReadKey();
-        }
-
-    }
 
     //    public static void CallToChildThread()
     //    {
