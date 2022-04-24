@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yN4c+6OgcJHCV6qt+sbVQatRrDoNi7gC5jTfRXnZhDnTMX7Le/fo+S5zyjg4a/JW0y4K/XFo1WW7OGGfuaH8cg==",
+  "dgSpecHash": "Fb5/PtyKiCtw4TVCaikNhwRBYXd2coT9M5MWDDOW1pSqdz0A/0LAl2UxPSq7IUdOXovGGiWgGmaH4XdpxrXEVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Daffolap-921\\source\\repos\\MyConsoleApps\\MyConsoleApps\\src\\ConsoleApp1\\ConsoleApp1.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Daffolap-921\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.14\\microsoft.netcore.app.host.win-x64.3.1.14.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\MyConsoleApps\\src\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

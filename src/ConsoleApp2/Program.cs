@@ -21,9 +21,7 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine($"***** START ****** Thread = {Thread.CurrentThread.ManagedThreadId}");
-            StaticAndAbstract.D.CallMe();
-            Console.WriteLine($"***** END ****** Thread = {Thread.CurrentThread.ManagedThreadId}");
+            StaticAndAbstract.CallMe();
             Console.Read();
 
         }
