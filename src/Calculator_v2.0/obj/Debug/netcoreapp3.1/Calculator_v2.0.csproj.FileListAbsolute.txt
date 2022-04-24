@@ -1,0 +1,17 @@
+D:\MyConsoleApps\src\Calculator_v2.0\bin\Debug\netcoreapp3.1\Calculator_v2.0.exe
+D:\MyConsoleApps\src\Calculator_v2.0\bin\Debug\netcoreapp3.1\Calculator_v2.0.deps.json
+D:\MyConsoleApps\src\Calculator_v2.0\bin\Debug\netcoreapp3.1\Calculator_v2.0.runtimeconfig.json
+D:\MyConsoleApps\src\Calculator_v2.0\bin\Debug\netcoreapp3.1\Calculator_v2.0.runtimeconfig.dev.json
+D:\MyConsoleApps\src\Calculator_v2.0\bin\Debug\netcoreapp3.1\Calculator_v2.0.dll
+D:\MyConsoleApps\src\Calculator_v2.0\bin\Debug\netcoreapp3.1\Calculator_v2.0.pdb
+D:\MyConsoleApps\src\Calculator_v2.0\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\MyConsoleApps\src\Calculator_v2.0\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\MyConsoleApps\src\Calculator_v2.0\obj\Debug\netcoreapp3.1\Calculator_v2.0.csproj.AssemblyReference.cache
+D:\MyConsoleApps\src\Calculator_v2.0\obj\Debug\netcoreapp3.1\Calculator_v2.0.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyConsoleApps\src\Calculator_v2.0\obj\Debug\netcoreapp3.1\Calculator_v2.0.AssemblyInfoInputs.cache
+D:\MyConsoleApps\src\Calculator_v2.0\obj\Debug\netcoreapp3.1\Calculator_v2.0.AssemblyInfo.cs
+D:\MyConsoleApps\src\Calculator_v2.0\obj\Debug\netcoreapp3.1\Calculator_v2.0.csproj.CoreCompileInputs.cache
+D:\MyConsoleApps\src\Calculator_v2.0\obj\Debug\netcoreapp3.1\Calculator_v2.0.csproj.CopyComplete
+D:\MyConsoleApps\src\Calculator_v2.0\obj\Debug\netcoreapp3.1\Calculator_v2.0.dll
+D:\MyConsoleApps\src\Calculator_v2.0\obj\Debug\netcoreapp3.1\Calculator_v2.0.pdb
+D:\MyConsoleApps\src\Calculator_v2.0\obj\Debug\netcoreapp3.1\Calculator_v2.0.genruntimeconfig.cache
